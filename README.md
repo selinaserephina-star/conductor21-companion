@@ -3,8 +3,8 @@
 **An empirical companion — Selina Stenberg and Ilya Balashov** · v1.3 (2026-09-19) · code MIT · paper/data CC BY 4.0
 
 Companion paper to *The Conductor-21 L-Function: Certified Zeros, Exact Laws, and a
-Density–Prime Operator* ([concept DOI 10.5281/zenodo.21982347](https://doi.org/10.5281/zenodo.21982347);
-data [10.5281/zenodo.21958629](https://doi.org/10.5281/zenodo.21958629)).
+Density–Prime Operator* ([DOI 10.5281/zenodo.22669650](https://doi.org/10.5281/zenodo.22669650);
+data [10.5281/zenodo.21958630](https://doi.org/10.5281/zenodo.21958630)).
 Zenodo DOI for this paper: *to be added at deposit*.
 
 ## What this is
