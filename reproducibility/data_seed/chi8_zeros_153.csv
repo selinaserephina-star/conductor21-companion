@@ -1,0 +1,154 @@
+j,gamma_mid,bracket_lo,bracket_hi,grade,method_primary,method_confirm,date,evidence
+1,0.98638643304834,0.986386,0.986390,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+2,1.26877688091460,1.268777,1.268781,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+3,1.56217955387600,1.562177,1.562180,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+4,1.96063051728480,1.960629,1.960633,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+5,2.11561859058060,2.115617,2.115620,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+6,2.36847715042310,2.368474,2.368478,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+7,2.60689373625150,2.606892,2.606896,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+8,2.91397734609240,2.913976,2.913979,CERTIFIED_EXACT,ECL low-zero (exact),ball-FFT engine B128 (2026-07-19),2026-06,ECL_chi8_package/zeros_chi8.csv
+9,3.126685,3.126683,3.126687,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),s26b arb (K=16 prec256) [2026-07-05],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/gamma9_certification_result.json
+10,3.340064,3.340062,3.340066,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),s26b arb [2026-07-06],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/gamma_10_certification_result.json
+11,3.700606,3.700604,3.700608,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),s26b arb [2026-07-06],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/gamma_11_certification_result.json
+12,3.952933,3.952931,3.952935,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),s26b arb (pure prediction) [2026-07-08],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/gamma_12_certification_result.json
+13,4.083770,4.083768,4.083772,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B (block cutoff 120M) [2026-07-14],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/
+14,4.366961,4.366959,4.366963,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B (block cutoff 120M) [2026-07-14],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/
+15,4.549426,4.549424,4.549428,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B [2026-07-11],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/aws_batch_gamma13_16/pass2_c4530
+16,4.694216,4.694215,4.694218,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B [2026-07-11],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/aws_batch_gamma13_16/pass2_c4730
+17,4.888278,4.888276,4.888280,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B [2026-07-11],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + Step2_chi8_main_jets/aws_batch_gamma13_16/pass2_c4930
+18,5.163962,5.163960,5.163964,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B (block cutoff 120M) [2026-07-14],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/
+19,5.495986,5.495984,5.495988,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B 32M/160M-cutoff [2026-07-15],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/gamma19_21_32M_addendum/
+20,5.684779,5.684777,5.684781,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B 32M/160M-cutoff [2026-07-15],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/gamma19_21_32M_addendum/
+21,5.946128,5.946126,5.946130,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),Channel-B 32M/160M-cutoff [2026-07-15],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + gamma14_18_channelB_certificate_2026-07-14/gamma19_21_32M_addendum/
+22,6.106227,6.106225,6.106229,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),64M jets + Channel-B 240M cutoff (w2) [2026-07-18],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + to_Ilya_gamma22_24_certified_2026-07-18/
+23,6.299144,6.299142,6.299146,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),64M jets + Channel-B 240M (w4+w5 dual) [2026-07-18],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + to_Ilya_gamma22_24_certified_2026-07-18/
+24,6.464545,6.464543,6.464547,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),64M jets + Channel-B 240M (w6+w7 dual) [2026-07-18],2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/ + to_Ilya_gamma22_24_certified_2026-07-18/
+25,6.721808,6.721806,6.721810,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+26,6.829898,6.829896,6.829900,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+27,6.980166,6.980164,6.980168,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+28,7.162436,7.162434,7.162438,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+29,7.463355,7.463353,7.463357,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+30,7.741961,7.741959,7.741963,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+31,7.822703,7.822701,7.822705,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+32,8.173720,8.173718,8.173722,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+33,8.309214,8.309212,8.309216,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+34,8.481711,8.481709,8.481713,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+35,8.659369,8.659367,8.659371,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+36,8.853080,8.853078,8.853082,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+37,8.925639,8.925637,8.925641,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+38,9.213653,9.213651,9.213654,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+39,9.494643,9.494641,9.494645,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+40,9.589717,9.589715,9.589719,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+41,9.882960,9.882958,9.882962,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+42,9.996787,9.996785,9.996789,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+43,10.086585,10.086583,10.086587,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+44,10.375457,10.375455,10.375459,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+45,10.496829,10.496827,10.496831,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+46,10.638469,10.638467,10.638470,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+47,10.837435,10.837434,10.837437,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+48,11.135695,11.135693,11.135697,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+49,11.228091,11.228089,11.228093,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+50,11.453067,11.453065,11.453069,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+51,11.630782,11.630780,11.630784,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+52,11.924930,11.924928,11.924931,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+53,12.074592,12.074590,12.074593,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+54,12.127124,12.127122,12.127126,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+55,12.282958,12.282956,12.282960,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+56,12.571425,12.571423,12.571427,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+57,12.686316,12.686314,12.686318,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+58,12.901339,12.901337,12.901341,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+59,13.026153,13.026151,13.026154,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+60,13.303424,13.303422,13.303426,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+61,13.468493,13.468491,13.468495,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+62,13.566462,13.566460,13.566464,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+63,13.695529,13.695527,13.695531,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+64,13.762744,13.762742,13.762746,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+65,14.001777,14.001775,14.001778,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+66,14.132739,14.132737,14.132741,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+67,14.375300,14.375298,14.375302,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+68,14.564234,14.564233,14.564236,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+69,14.727271,14.727269,14.727273,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+70,14.845309,14.845307,14.845311,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+71,14.976603,14.976601,14.976605,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+72,15.027720,15.027718,15.027722,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+73,15.359649,15.359647,15.359650,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+74,15.443629,15.443627,15.443631,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+75,15.681395,15.681393,15.681397,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+76,15.878977,15.878976,15.878979,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+77,15.991763,15.991761,15.991765,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+78,16.156909,16.156907,16.156911,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+79,16.336257,16.336255,16.336259,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+80,16.482245,16.482243,16.482247,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+81,16.693635,16.693631,16.693639,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+82,16.831908,16.831906,16.831910,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+83,17.007689,17.007687,17.007691,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+84,17.167643,17.167641,17.167645,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+85,17.390914,17.390912,17.390916,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+86,17.521308,17.521306,17.521310,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+87,17.710356,17.710355,17.710358,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+88,17.832503,17.832501,17.832505,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+89,17.939208,17.939206,17.939210,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+90,18.087619,18.087617,18.087621,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+91,18.368319,18.368317,18.368321,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+92,18.613601,18.613599,18.613602,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+93,18.709971,18.709969,18.709973,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+94,18.846236,18.846234,18.846238,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+95,18.998105,18.998090,18.998120,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+96,19.227365,19.227361,19.227368,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+97,19.359690,19.359689,19.359692,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+98,19.594235,19.594220,19.594250,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+99,19.644033,19.644025,19.644040,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+100,19.822774,19.822766,19.822781,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+101,19.971334,19.971326,19.971341,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+102,20.064617,20.064587,20.064648,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+103,20.257081,20.257077,20.257085,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+104,20.406236,20.406232,20.406239,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+105,20.600865,20.600858,20.600873,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+106,20.735760,20.735730,20.735791,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+107,20.912221,20.912213,20.912228,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+108,21.146406,21.146375,21.146436,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+109,21.199536,21.199414,21.199658,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+110,21.332898,21.332837,21.332959,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+111,21.484799,21.484784,21.484814,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+112,21.686764,21.686749,21.686780,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+113,21.803113,21.803052,21.803174,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+114,21.894910,21.894849,21.894971,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+115,22.086895,22.086865,22.086926,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+116,22.279508,22.279492,22.279523,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+117,22.408459,22.408398,22.408521,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+118,22.461621,22.461133,22.462109,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+119,22.711858,22.711850,22.711865,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+120,22.830884,22.830762,22.831006,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+121,23.080777,23.080762,23.080792,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+122,23.204404,23.204388,23.204419,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+123,23.353528,23.353467,23.353589,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+124,23.533017,23.533002,23.533032,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+125,23.743603,23.743359,23.743848,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+126,23.786817,23.786328,23.787305,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+127,24.020642,24.020581,24.020703,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+128,24.179272,24.179150,24.179395,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+129,24.372754,24.372266,24.373242,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+130,24.418164,24.417188,24.419141,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+131,24.573560,24.573438,24.573682,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+132,24.724439,24.724316,24.724561,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+133,24.913037,24.912793,24.913281,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+134,25.049512,25.049023,25.050000,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+135,25.159864,25.159375,25.160352,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+136,25.279004,25.278516,25.279492,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+137,25.404492,25.403516,25.405469,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+138,25.628858,25.628613,25.629102,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+139,25.739453,25.737500,25.741406,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+140,25.835645,25.835156,25.836133,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+141,26.015576,26.015332,26.015820,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+142,26.266309,26.265820,26.266797,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+143,26.350782,26.346875,26.354688,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+144,26.448438,26.440625,26.456250,NUMERICAL,ball-FFT engine scan (sign change found; enclosure at radius floor),,2026-07-19,"certified_run.log; weak-amplitude zero, certification pending"
+145,26.604932,26.604688,26.605176,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+146,26.805860,26.803906,26.807813,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+147,26.872998,26.872754,26.873242,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+148,27.149121,27.148633,27.149609,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+149,27.246289,27.245313,27.247266,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+150,27.382214,27.382153,27.382275,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+151,27.620190,27.620068,27.620313,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+152,27.799512,27.799023,27.800000,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv
+153,27.911084,27.910840,27.911328,CERTIFIED_BALL,ball-FFT engine B128 (2026-07-19),,2026-07-19,to_Ilya_CERTIFIED_spectrum_2026-07-19/results/certified_run_brackets.csv

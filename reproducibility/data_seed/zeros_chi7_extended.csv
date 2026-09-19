@@ -1,0 +1,11 @@
+j,gamma_j,abs_Xi_at_gamma,rel_Xi_at_gamma,status,source
+1,1.004372024,3.192e-37,2.3e-40,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+2,1.398488501,1.791e-39,1.3e-42,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+3,1.713179509,6.480e-39,4.7e-42,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+4,2.133301212,2.414e-39,1.7e-42,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+5,2.559963420,2.662e-41,1.9e-44,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+6,2.900925260,7.896e-42,5.7e-45,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+7,3.119685851,2.706e-42,2.0e-45,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+8,3.420742151,4.886e-43,3.5e-46,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+9,3.699507556,5.365e-43,3.9e-46,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"
+10,4.142700089,1.279e-43,9.2e-47,numerical_anchored,"PARI lfunan-vector + lfunzeros (claude2 2026-07-05, chi7 extended to t<=4.3; realbitprec 32, B=50M; 5.0 OOM on 32GB octic)"

@@ -1,0 +1,13 @@
+j,gamma_j,abs_Xi_at_gamma,rel_Xi_at_gamma,status,source
+1,0.769561771,1.352e-36,6.4e-40,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+2,1.697965079,8.946e-39,4.3e-42,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+3,1.789640617,8.134e-39,3.9e-42,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+4,2.299747410,4.915e-39,2.3e-42,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+5,2.693663725,7.315e-41,3.5e-44,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+6,3.017913670,1.157e-40,5.5e-44,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+7,3.401559853,1.389e-41,6.6e-45,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+8,3.666918540,3.995e-43,1.9e-46,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+9,3.841414245,1.303e-42,6.2e-46,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+10,4.256028635,1.583e-42,7.5e-46,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+11,4.602343340,1.551e-43,7.4e-47,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
+12,4.845084033,1.019e-43,4.9e-47,numerical_anchored,"PARI lfunzeros + lfunlambda residual (claude2 2026-07-05, chi6 extended to t<=5.0; >=9-digit gamma)"
