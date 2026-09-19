@@ -368,8 +368,12 @@ establishes the opposite, a measured decoupling.
 All scripts, zero tables, Frobenius caches (regenerable; $\le10^9$ classes
 and $(10^9,10^{10}]$ binned $\psi_\chi$), figures, and per-run analysis notes
 with SHA-256 manifests are released with this paper; the certified zero data
-and the main program record are at \cite{mainpaperdata}. Every number in
-this paper is produced by a named script on named data, under CC~BY~4.0;
+and the main program record are at \cite{mainpaperdata}. The scripts, data,
+and per-run analysis notes are maintained at
+\url{https://github.com/selinaserephina-star/conductor21-companion} and
+archived with this deposit. Every number in this paper is produced by a
+named script on named data. Licences: the scripts under the MIT licence;
+the paper, figures, and data tables under CC~BY~4.0.
 Appendix~\ref{app:scripts} maps each section to its scripts, inputs, and
 outputs.
 
@@ -395,7 +399,8 @@ Computations use Python~3 with NumPy \cite{numpy}, python-flint/FLINT
 \cite{flint}, mpmath \cite{mpmath}, and, for the $(10^9,10^{10}]$ sweep,
 Numba \cite{numba}; the companion zero tables were produced with PARI/GP
 \cite{pari}. Each script runs standalone against the released data seed and
-its own cached inputs; a SHA-256 manifest covers every released file.
+its own cached inputs; a SHA-256 manifest covers every released file, and
+the repository above carries the maintained copies.
 
 \begin{center}
 \begin{tabular}{lll}

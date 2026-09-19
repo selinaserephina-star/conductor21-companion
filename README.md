@@ -1,6 +1,6 @@
 # Prime and zero statistics of a degree-8 Artin L-function of conductor 21¹⁰
 
-**An empirical companion — Selina Stenberg and Ilya Balashov** · v1.3 (2026-09-19) · CC BY 4.0
+**An empirical companion — Selina Stenberg and Ilya Balashov** · v1.3 (2026-09-19) · code MIT · paper/data CC BY 4.0
 
 Companion paper to *The Conductor-21 L-Function: Certified Zeros, Exact Laws, and a
 Density–Prime Operator* ([concept DOI 10.5281/zenodo.21982347](https://doi.org/10.5281/zenodo.21982347);
@@ -61,6 +61,8 @@ data are released precisely so that any reader may perform that verification.
 
 ## License and citation
 
-CC BY 4.0 (see `LICENSE`). Cite via `CITATION.cff`, or the Zenodo DOI once deposited.
+Dual-licensed: **scripts and code under MIT**; **paper, figures, and data tables
+under CC BY 4.0** (see `LICENSE` and `LICENSE-CC-BY-4.0`). Cite via
+`CITATION.cff`, or the Zenodo DOI once deposited.
 Prepared with AI assistance (Claude); see the paper's Appendix A for the
 model-attribution record.
