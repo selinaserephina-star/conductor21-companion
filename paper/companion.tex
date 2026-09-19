@@ -99,8 +99,8 @@ in the computations are documented and resolved in \S\ref{sec:flags}.
 \paragraph{Zeros.} The certified table: $\gamma_1=0.98638643\ldots$ through
 $\gamma_{153}=27.911$, produced by the ball-arithmetic FFT engine of
 \cite{mainpaper} and certified by a Turing-style count. Companion tables
-(numerically anchored, PARI): $\chi_3$-pair 15 zeros ($\gamma\le5.31$),
-$\chi_6$ 12 ($\le4.85$), $\chi_7$ 10 ($\le4.14$).
+(numerically anchored, PARI/GP \cite{pari}): $\chi_3$-pair 15 zeros
+($\gamma\le5.31$), $\chi_6$ 12 ($\le4.85$), $\chi_7$ 10 ($\le4.14$).
 
 \paragraph{Counting function.} With
 $\theta(T)=\tfrac{T}{2}\ln Q-4T\ln2\pi+4\,\mathrm{arg}\,\Gamma(\tfrac12+iT)$
@@ -110,7 +110,7 @@ fluctuation $S(T)$ of mean $0$ and standard deviation $0.365$. This
 cross-validates the zero list against the conductor and gamma data.
 
 \paragraph{Primes.} Exact Frobenius classes for all $p\le10^9$ (FLINT
-factorization of $f$ mod $p$); exact $a_p$ for $p\in(10^9,10^{10}]$
+\cite{flint} factorization of $f$ mod $p$); exact $a_p$ for $p\in(10^9,10^{10}]$
 ($404{,}204{,}977$ primes, overflow-safe batch kernel). Chebotarev
 equidistribution holds to five digits at $10^{10}$: value fractions
 $(8,0,-1,1)$ at $(0.00595,\,0.37500,\,0.33331,\,0.28574)$ against
@@ -369,7 +369,9 @@ All scripts, zero tables, Frobenius caches (regenerable; $\le10^9$ classes
 and $(10^9,10^{10}]$ binned $\psi_\chi$), figures, and per-run analysis notes
 with SHA-256 manifests are released with this paper; the certified zero data
 and the main program record are at \cite{mainpaperdata}. Every number in
-this paper is produced by a named script on named data, under CC~BY~4.0.
+this paper is produced by a named script on named data, under CC~BY~4.0;
+Appendix~\ref{app:scripts} maps each section to its scripts, inputs, and
+outputs.
 
 \emph{Verification note.} Independent review of this work verified the
 theoretical inputs on which the statistics rest --- the bias-mean formula
@@ -388,6 +390,43 @@ tables and engines are those of the main program. All mathematical claims
 were verified by computation; responsibility for the content rests with the
 authors.
 
+\section{Scripts and data}\label{app:scripts}
+Computations use Python~3 with NumPy \cite{numpy}, python-flint/FLINT
+\cite{flint}, mpmath \cite{mpmath}, and, for the $(10^9,10^{10}]$ sweep,
+Numba \cite{numba}; the companion zero tables were produced with PARI/GP
+\cite{pari}. Each script runs standalone against the released data seed and
+its own cached inputs; a SHA-256 manifest covers every released file.
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+script & sections & principal outputs \\
+\midrule
+\texttt{bk\_explore.py} & \S\ref{sec:identity}, \S\ref{sec:blind} (twins) &
+\texttt{bk\_offdiag\_results.json}; Fig.~\ref{fig:res} \\
+\texttt{gapmap.py} & \S\ref{sec:blind} (gaps), \S\ref{sec:flags}(i) &
+\texttt{gapmap\_results.json}; Fig.~\ref{fig:gapmap}; class cache to $10^9$ \\
+\texttt{chebrace.py} & \S\ref{sec:races} &
+\texttt{chebrace\_results.json}; Fig.~\ref{fig:races} \\
+\texttt{sivar.py} & \S\ref{sec:ramp} &
+\texttt{sivar\_results.json}; Fig.~\ref{fig:ramp} \\
+\texttt{finale.py} & \S\ref{sec:blind} (affine), \S\ref{sec:races},
+\S\ref{sec:ramp}, \S\ref{sec:flags} & \texttt{finale\_results.json};
+Fig.~\ref{fig:finale} \\
+\texttt{sweep\_1e10.py}, \texttt{retest\_D.py} & \S\ref{sec:ramp} (scale
+purity), \S\ref{sec:flags}(iii) & \texttt{bins\_1e9\_1e10.npz};
+\texttt{retest\_D\_results.json} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\emph{Data.} The certified zero table (153 zeros, $\gamma\le27.911$); the
+companion low-zero tables ($\chi_3$-pair, $\chi_6$, $\chi_7$); exact
+Frobenius classes for all $p\le10^8$ (released; the $\le10^9$ cache and the
+$(10^9,10^{10}]$ sweep regenerate from the included scripts); per-run result
+JSON files and figures. Provenance and per-run analysis notes accompany each
+script.
+
 \begin{thebibliography}{99}
 \bibitem{mainpaper} S.~Stenberg and I.~Balashov, \emph{The Conductor-21
 $L$-Function: Certified Zeros, Exact Laws, and a Density--Prime Operator},
@@ -402,23 +441,39 @@ arXiv:2201.04103.)
 the zeta function}, Proc. Sympos. Pure Math. 24 (1973), 181--193.
 \bibitem{gm} D.~A.~Goldston and H.~L.~Montgomery, \emph{Pair correlation of
 zeros and primes in short intervals}, in Analytic Number Theory and
-Diophantine Problems, Birkh\"auser (1987), 183--203.
+Diophantine Problems (Stillwater, OK, 1984), Progr. Math. 70, Birkh\"auser
+Boston (1987), 183--203.
 \bibitem{ms} H.~L.~Montgomery and K.~Soundararajan, \emph{Primes in short
 intervals}, Comm. Math. Phys. 252 (2004), 589--617.
+DOI \texttt{10.1007/s00220-004-1222-4}.
 \bibitem{bk} E.~B.~Bogomolny and J.~P.~Keating, \emph{Random matrix theory
 and the Riemann zeros II: $n$-point correlations}, Nonlinearity 9 (1996),
-911--935.
+911--935. DOI \texttt{10.1088/0951-7715/9/4/006}.
 \bibitem{rs} M.~Rubinstein and P.~Sarnak, \emph{Chebyshev's bias},
-Experiment. Math. 3 (1994), 173--197.
+Experiment. Math. 3 (1994), no.~3, 173--197.
+DOI \texttt{10.1080/10586458.1994.10504289}.
 \bibitem{ng} N.~Ng, \emph{Limiting distributions and zeros of Artin
 $L$-functions}, Ph.D. thesis, University of British Columbia (2000).
 \bibitem{ks} N.~M.~Katz and P.~Sarnak, \emph{Zeroes of zeta functions and
-symmetry}, Bull. Amer. Math. Soc. 36 (1999), 1--26.
+symmetry}, Bull. Amer. Math. Soc. (N.S.) 36 (1999), no.~1, 1--26.
+DOI \texttt{10.1090/S0273-0979-99-00766-1}.
 \bibitem{hl} G.~H.~Hardy and J.~E.~Littlewood, \emph{Some problems of
-`Partitio numerorum' III}, Acta Math. 44 (1923), 1--70.
+`Partitio numerorum'; III: On the expression of a number as a sum of
+primes}, Acta Math. 44 (1923), 1--70. DOI \texttt{10.1007/BF02403921}.
 \bibitem{lmfdb} The LMFDB Collaboration, \emph{The $L$-functions and Modular
 Forms Database}, \url{https://www.lmfdb.org}, object
 \texttt{8.16679880978201.21t14.b.a}.
+\bibitem{flint} W.~B.~Hart, F.~Johansson, et al., \emph{FLINT: Fast Library
+for Number Theory}, \url{https://flintlib.org} (via python-flint).
+\bibitem{pari} The PARI Group, \emph{PARI/GP}, Univ. Bordeaux,
+\url{https://pari.math.u-bordeaux.fr}.
+\bibitem{numpy} C.~R.~Harris et al., \emph{Array programming with NumPy},
+Nature 585 (2020), 357--362. DOI \texttt{10.1038/s41586-020-2649-2}.
+\bibitem{mpmath} F.~Johansson et al., \emph{mpmath: a Python library for
+arbitrary-precision floating-point arithmetic}, \url{https://mpmath.org}.
+\bibitem{numba} S.~K.~Lam, A.~Pitrou, and S.~Seibert, \emph{Numba: a
+LLVM-based Python JIT compiler}, Proc. Second Workshop on the LLVM Compiler
+Infrastructure in HPC (2015), 1--6. DOI \texttt{10.1145/2833157.2833162}.
 \end{thebibliography}
 
 \end{document}
